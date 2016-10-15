@@ -1,0 +1,19 @@
+[15-Oct-2016 05:51:28 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/wp-includes/media.php on line 2775
+[15-Oct-2016 05:51:28 UTC] PHP Stack trace:
+[15-Oct-2016 05:51:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Oct-2016 05:51:28 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[15-Oct-2016 05:51:28 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[15-Oct-2016 05:51:28 UTC] PHP   4. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[15-Oct-2016 05:51:28 UTC] PHP   5. wp_crop_image() /home/ubuntu/workspace/wp-admin/custom-header.php:1231
+[15-Oct-2016 05:51:28 UTC] PHP   6. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wp-admin/includes/image.php:43
+[15-Oct-2016 05:51:28 UTC] PHP   7. wp_imagecreatetruecolor() /home/ubuntu/workspace/wp-includes/class-wp-image-editor-gd.php:286
+[15-Oct-2016 05:51:28 UTC] PHP   8. imagecreatetruecolor() /home/ubuntu/workspace/wp-includes/media.php:2775
+[15-Oct-2016 05:51:28 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/wp-includes/class-wp-image-editor-gd.php on line 296
+[15-Oct-2016 05:51:28 UTC] PHP Stack trace:
+[15-Oct-2016 05:51:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Oct-2016 05:51:28 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[15-Oct-2016 05:51:28 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[15-Oct-2016 05:51:28 UTC] PHP   4. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[15-Oct-2016 05:51:28 UTC] PHP   5. wp_crop_image() /home/ubuntu/workspace/wp-admin/custom-header.php:1231
+[15-Oct-2016 05:51:28 UTC] PHP   6. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wp-admin/includes/image.php:43
+[15-Oct-2016 05:51:28 UTC] PHP   7. imagecopyresampled() /home/ubuntu/workspace/wp-includes/class-wp-image-editor-gd.php:296
